@@ -22,9 +22,11 @@ b.s.lambert "at" leeds.ac.uk<br>
 
 See below for some pictures from my research! Or click on:
 <li> <a href = "#jestershat">Unwinding a jester's hat</a>
+<li> <a href = "#Trilobite">The Trilobite</a>
 <li> <a href = "#EquivariantLMCFBC">Equivariant examples of Lagrangian mean curvature flow</a>
-<li> <a href = "#stable">Stable, unstable and one-sided stable maximal surfaces</a>
+<li> <a href = "#VisibleSet">The visible set in alexandrov immersed mean curvature flow</a>
 <li> <a href = "#death">Death's trumpet</a>
+<li> <a href = "#stable">Stable, unstable and one-sided stable maximal surfaces</a>
 <li> <a href = "#convex">Convex inverse mean curvature flow inside ellipsoids</a><br></br>
 <hr>
 
@@ -38,6 +40,11 @@ See below for some pictures from my research! Or click on:
 <hr>
 
 <h1>Preprints </h1>
+(15) B. Lambert and E. M&aumlder-Baumdicker, <b>Nonlocal estimates for the volume preserving mean curvature flow and applications. </b><a href="https://arxiv.org/abs/2207.01123">Preprint</a>.<br></br>
+
+(14) B. Lambert and E. M&aumlder-Baumdicker, <b>A Note on Alexandrov immersed mean curvature flow. </b><a href="https://arxiv.org/abs/2206.14060">Preprint</a>.<br></br>
+
+
 (13) D. Ballesteros-Chavez, W. Klingenberg and B. Lambert, <b>Weyl estimates for spacelike
 hypersurfaces in de Sitter space. </b><a href="https://arxiv.org/abs/2112.11515">Preprint</a>.<br></br>
 
@@ -83,6 +90,20 @@ B. Lambert, <b>A Neumann boundary condition for spacelike mean curvature flow in
 </center>
 An initial "jester's hat" hypersurface inside a rotational torus flows by mean curvature flow with a Neumann boundary condition to a flat cross-section of the torus. The results of (3) indicate that all embedded initial hypersurfaces transversal to the rotational vector field inside the torus flow for all time and converge to a flat cross-section. 
 
+
+<center>
+<a name="Trilobite">
+<h2>The Trilobite</h2></a>
+<img src="Joachim_Barrande.jpeg" alt="Construction of the original trilobites" border="0" width = 700/><br>
+<small>Construction of the original trilobites, by Joachim Barrande (1799-1883). 
+Image  is Public Domain <a href="http://www.granit-publishing.cz/?l=en&amp;e=18&amp;k=47&amp;m=">(Original source)</a><a href="https://commons.wikimedia.org/w/index.php?curid=18069130">(Wikipedia)</a>
+</small>
+<img src="TrilobiteConstruction.png" alt="Construction of the trilobite example in VPMCF" border="0" width = 700/><br>
+<small>Construction of the trilobite example in VPMCF</small>
+</center>
+In (15) above, <a href="https://www.mathematik.tu-darmstadt.de/fb/personal/details/elena_maeder-baumdicker.de.jsp">Elena</a> and I show that Alexandrov immersions remain Alexandrov immersed under volume preserving mean curvature flow (VPMCF) as long as the average mean curvature remains positive. A natural question is then: If the average of the mean curvature is non-negative initially, does it remain non-negative? The above monster shows that the answer is no: The trilobite starts with zero average mean curvature and becomes negative. 
+
+
 <center>
 <a name="EquivariantLMCFBC">
 <h2>Equivariant examples of Lagrangian mean curvature flow</h2></a>
@@ -94,6 +115,19 @@ These pictures show the behaviour of <a href="https://arxiv.org/abs/1911.04977">
 <li> We have proven that the behaviour in the previous two points holds true in generality for almost calibrated starting data for LMCF+BC. However, in the final picture our flow has a non perpendicular boundary condition on the Clifford torus, and instead here the rescaled LMCF+BC appears to converge to a <i>rotating solution</i> to the rescaled flow! Numerical tests appear to indicate that this behaviour generally holds. Note that the rotating solution is equivalent to a <i>rotating shrinking solution</i> to unrescaled LMCF+BC.
 
 <center>
+<a name="VisibleSet">
+<h2>Alexandrov immersed mean curvature flow</h2></a>
+<img src="VisibleSet.png" alt="The visible set of an Alexandrov immersed surface" border="0" width = 700/><br>
+</center>
+An Alexandrov immersed surface is one that can be written as the boundary of the image of a 3 dimensional domain under some differmorphism. It turns out that if we start with an Alexandrov immersed surface and flow by the mean curvature flow, it remains Alexandrov immersed.  Such mean curvature flows satisfy good properties - roughly, we can use the Alexandrov immersion to "lift the surface off itself", meaning many properties associated with embedded mean curvature flow still hold. The above picture indicates a construction for a replacement for noncollapsing quantities, which may be used to improve our analysis of singularities of the flow. For more information, see (14) above.
+
+<center>
+<a name="death"><h2>Death's Trumpet</h2></a>
+<img src="DeathsTrumpet.jpg" alt="Grim reaper solution coming out of a trumpet" border="0" width = 500/><br>
+</center>
+Here is an interesting example of singular behaviour of mean curvature with a Neumann boundary condition in Minkowski space: We see here the grim reaper solution to spacelike mean curvature flow in 2 dimensional spacelike mean curvature flow given by log(cosh(x+t)), starting from negative t. The boundary manifold or "trumpet" is given by log(|sinh(x)|), and the grim reaper solution is (Minkowski) perpendicular to the trumpet at any point it intersects it. We therefore have a solution to mean curvature flow with a Neumann boundary condition whose maximum curvature explodes as t tends towards 0. Additionally the flow becomes "lightlike at infinity" at time t=0. This implies that some curvature conditions are required on boundary manifolds if we wish to get bounded geometry in the form of gradient and curvature estimates of a flowing hypersurface. Wierdly, although the Neumann boundary condition no longer makes sense for t>0, there is no problem for the flow to continue on the interior (the thinner lines in the picture). While this is an interesting example, I admit that I include it here partly in the hope the name "Death's Trumpet" catches on. For more results on gradient estimates for spacelike mean curvature flow see (5) above.
+
+<center>
 <a name="stable"><h2>Stable, unstable and one-sided stable maximal surfaces</h2></a>
 <img src="StabilityNeumann.jpg" alt="Stable and unstable Maximal surfaces" border="0" width = 700/><br>
 </center>
@@ -102,12 +136,6 @@ Here we see the cross-section of rotationally symmetric spacelike constant mean 
 <li> The maximal surface at the thinnest part of the sine wave is unstable. 
 <li> Meanwhile on the left we see a sequence of maximal surfaces which are one sided stable (i.e. if perturb the maximal surface only in the downwards direction, it will be pushed back to the initial maximal surface, but if we perturb only in the upwards direction, the surface flows to the next maximal surface up). 
 Full details of these results may be found in (5) above.
-
-<center>
-<a name="death"><h2>Death's Trumpet</h2></a>
-<img src="DeathsTrumpet.jpg" alt="Grim reaper solution coming out of a trumpet" border="0" width = 500/><br>
-</center>
-Here is an interesting example of singular behaviour of mean curvature with a Neumann boundary condition in Minkowski space: We see here the grim reaper solution to spacelike mean curvature flow in 2 dimensional spacelike mean curvature flow given by log(cosh(x+t)), starting from negative t. The boundary manifold or "trumpet" is given by log(|sinh(x)|), and the grim reaper solution is (Minkowski) perpendicular to the trumpet at any point it intersects it. We therefore have a solution to mean curvature flow with a Neumann boundary condition whose maximum curvature explodes as t tends towards 0. Additionally the flow becomes "lightlike at infinity" at time t=0. This implies that some curvature conditions are required on boundary manifolds if we wish to get bounded geometry in the form of gradient and curvature estimates of a flowing hypersurface. Wierdly, although the Neumann boundary condition no longer makes sense for t>0, there is no problem for the flow to continue on the interior (the thinner lines in the picture). While this is an interesting example, I admit that I include it here partly in the hope the name "Death's Trumpet" catches on. For more results on gradient estimates for spacelike mean curvature flow see (5) above.
 
 <center>
 <a name="convex"><h2>Convex inverse mean curvature flow inside ellipsoids</h2></a>
